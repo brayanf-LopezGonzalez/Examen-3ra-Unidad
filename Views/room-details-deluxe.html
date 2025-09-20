@@ -33,13 +33,13 @@
 				</li>
 
 				<li>
-					<a href="Views/about.html">
+					<a href="about.html">
 						Sobre Nosotros
 					</a>
 				</li>
 
 				<li>
-					<a href="Views/contact.html">
+					<a href="contact.html">
 						Contactanos
 					</a>
 				</li>
@@ -51,6 +51,88 @@
 		Habitacion Deluxe
 	</h2>
 
+	<img src="../Assets/Images/habitacion_deluxe.jpg" width="500">
+
+	<p>
+		Habitacion con cama King Size, baño privado, Wi-Fi y Television. 
+	</p>
+
+	<ul>
+		<li>
+			Cama amplia
+		</li>
+		<li>
+			Mini bar
+		</li>
+		<li>
+			Television mas grande
+		</li>
+	</ul>
+
+	<p>
+		<strong>
+			Precio:
+		</strong>
+		$280 por noche
+	</p>
+
+	<h3>
+		Reserva ahora
+	</h3>
+
+	<!-------------- formulario ---------------->
+
+	<form>
+		<label>
+			Nombre completo:
+		</label>
+		<input type="text" name="nombre" required>
+
+		<br>
+
+		<label>
+			Correo electronico:
+		</label>
+		<input type="email" name="email" required autocomplete="off">
+
+		<br>
+
+		<label>
+			Fecha de inicio de hospedaje:
+		</label>
+		<input type="date" name="checkin" required>
+
+		<br>
+
+		<label>
+			Fecha de fin de hospedaje:
+		</label>
+		<input type="date" name="checkout" required>
+
+		<br>
+
+		<label>
+			Numero de personas:
+		</label>
+		<input type="number" name="personas" min="1" max="5" required>
+
+		<br>
+
+		<input type="submit" name="Reservar" value="Reservar">
+		
+	</form>
+
+	<br>
+
+	<a href="rooms.html">
+		Volver a Habitaciones
+	</a>
+
+	<br>
+
+	<p>
+		©2025 Hotel Paraíso
+	</p>
 
 
 	</body>
